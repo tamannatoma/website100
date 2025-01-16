@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+   
+</head>
+<body>
+    
+      <h1 id="title">Registration Form</h1>
+      <p id="description">Registration here</p><hr>
+    
+    
+    <form id="survay_form" action="form3.html">
+        <label id="name-label">Name:</label>
+        <input type="text" id="name" placeholder="name" required><br><br>
+        <label id="email-label">Email:</label>
+        <input type="email" id="email" placeholder="email" required><br><br>
+        <label id="number-label">Age:</label>
+        <input type="number" id="number" min="15" max="100" placeholder="age" required><br><br>
+        <label id="dropdown">Gender:</label>
+        <select id="dropdown"><br>
+            <option>Male</option>
+            <option>Female</option>
+            <option>Others</option>
+        </select><br><br>
+        <label id="marrital-label">Marrital Status:</label><br>
+        <label id="married">
+        <input type="radio" id="married" name="married" value="married" required>Married
+        <label><br>
+        <label id="unmarried">
+        <input type="radio" id="unmarried" name="married" value="unmarried" required>Unmarried
+        <label><br><br>
+        <label id="address">Address:</label><br>
+        <textarea name="address" id="address"></textarea><br>
+        <label id="checkbox">Terms and Conditions <a href="readmore.com"><p>read more</p></a></label>
+        <input type="checkbox" value="accept" required>
+        <label id="checkbox2">Accept<label><br><br>
+       <input type="submit" id="submit" required>
+    </form>
+
+    
+</body>
+</html>

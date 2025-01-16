@@ -1,0 +1,19 @@
+body{
+    background-color: rgb(86, 177, 174);
+  
+}
+
+#survay_form{
+    height: 500px;
+    width: 500px;
+   
+    margin: auto;
+}
+#title{
+    text-align: center;
+
+}
+#description{
+    text-align: center;
+
+}
