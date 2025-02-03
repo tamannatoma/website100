@@ -1,6 +1,16 @@
 body{
-    background-color: rgb(86, 177, 174);
+   /* background-color: rgb(86, 177, 174);*/
+    display: flex;
+    justify-content: center;
   
+}
+div {
+    height: 80vh;
+    width: 50vw;
+    border: 2px solid rgb(33, 5, 5);
+    border-radius: 5px;
+    background-color:  rgb(86, 177, 174);
+    /*justify-content: center;*/
 }
 
 #survay_form{
